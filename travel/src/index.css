@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(233, 239, 255);
+}
+
+.header{
+    color: rgb(247, 237, 225);
+    text-align: center;
+    background-color: rgb(91, 108, 221);
+    padding: 8px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.trip{
+    margin-top: 10px;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+
+.trip--img{
+    height: 300px; 
+    width: 220px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    border-radius: 8px;
+    box-shadow: 4px rgb(0, 0, 0);
+   
+}
+
+.trip-stats{
+    margin-left: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
